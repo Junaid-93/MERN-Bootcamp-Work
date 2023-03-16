@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label>Input a number greater than 5 digits</label><br>
+    <input id = "input" type="number" value="">
+    <button onclick="sum_of_odds()" id = "button">Show sum of odd numbers</button>
+
+    <script>
+        
+        function sum_of_odds() {
+            var sum = 0
+            let x = document.getElementById("input").value;
+            if (x.length <= 5 ) {
+                alert("Your number is less than 6 digits.");
+            }
+            for (let i of x) {   
+                let num = parseInt(i)
+                if (num % 2 == 1) {
+                    sum += num
+                }
+            }
+            console.log(sum);
+         }
+    </script>
+</body>
+</html>

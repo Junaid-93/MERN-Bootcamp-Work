@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Web</title>
+    <style>
+        header {
+            padding: 5px 50px 30px 50px;
+            text-align: center;
+            background-color: rgb(255, 0, 0,0.8);  
+            /* position: fixed;
+            top: 0px;
+            width:1235px; */
+        }
+        h1 {
+            font-size: 50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+        a {
+            padding: 10px;
+            margin: 5px 30px 0px 30px;
+            background-color: black;
+            color:red;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: large;
+            font-weight:bolder;
+        
+        }
+        a:hover{
+            background-color: white;
+            color: black;
+        }
+        #backImage {
+            position:absolute;
+            overflow: scroll;
+            opacity: .8;
+        }
+        
+        
+        .content {  
+            position:absolute;
+            top: 300px;
+            left: 200px;
+            right: 200px;
+            z-index: 1;
+        }
+        #chickenBurger, #pizza, #clubsandwich {
+             margin: 5pc;
+             border: 5px solid black;
+
+        }
+        div.footer {
+            position:relative;
+            top: 1300px;
+            z-index: 1;
+            background-color: black;
+            color: white;
+            display:inline-flexbox ;
+        }
+        #logo1, #logo2, #logo3 {
+            margin: auto 15px auto 30px;
+            padding-top: 3px;
+            /* justify-content: center; */
+        }
+        #p1 {
+        padding-top: 10px;
+        display: inline;
+        margin-right: 100px;
+
+        }
+         /* #p2 {
+        background-color: blue;
+        display: inline;
+        /* font-size: xx-large;
+        font-size: 100px;
+        padding-top: auto;
+        padding-right: auto;
+        } */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABC Restaurant</h1><br>
+        <a href="https://www.google.com/">Home</a>
+        <a href="https://www.google.com/">Menu</a>
+        <a href="https://www.google.com/">Cart</a>
+        <a href="https://www.google.com/">About us</a>
+        <a href="https://www.google.com/">Contact us</a>
+    </header>
+        <!-- <nav>
+            <ol>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Cart</li>
+                <li>About us</li>
+                <li>Contacts</li>
+            </ol>
+        </nav>-->
+    <img id="backImage" src="https://img.freepik.com/premium-photo/flat-lay-arrangement-with-burgers-pizza_23-2148308817.jpg?w=2000" width="auto" height="auto">
+    <div class="content">
+        <img id="chickenBurger" src="https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Crispy-Chicken-Burger-square-FS-4518.jpg" width="300" height="300">
+        
+        <img id="pizza" src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900" width="300" height="300">
+        
+        <img id="clubsandwich" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOdblV4XobEPb53uI78NDZgefLNZhmUM4HD7Qac74V1MBnLrnuExFb7tvM9xXN8k_mwg&usqp=CAU" width="300" height="300">
+        
+
+    </div>
+    <div class="footer">
+        <p id="p1"><img id="logo1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png" width="25" height="25">0312-1234567 & 0312-1234567<br>
+        <img id="logo2" src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-transparent-png-pictures-icons-and-0.png" width="25" height="25">fb/abcrestaurant<br>
+        <img id="logo3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png" width="25" height="25">insta/abcrestaurant</p>
+    </div>
+</body>
+</html>
+
+<!-- <li>Deals</li>
+            <li>Pizzas</li>
+            <li>Siders</li>
+            <li>beverages</li> -->
