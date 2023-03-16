@@ -1,0 +1,3 @@
+React Query is hands down one of the best libraries for managing server state.
+
+React Query allows you to defeat and overcome the tricky challenges and hurdles of server state and control your app data

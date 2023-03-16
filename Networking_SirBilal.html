@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Data</h1>
+    <form action="http://10.241.72.207:5000/form" method="post">
+
+        <input type="text" placeholder="Enter Name" name="name">
+        <input type="text" placeholder="Enter FName" name="fname">
+        <input type="text" placeholder="Enter Age" name="age">
+        
+        <input type="submit" value="Submit Form">
+    </form>
+
+
+
+
+
+
+
+<br><br>
+    <h1>FetchApi </h1>
+    <div>
+        <input type="text" placeholder="Enter Name" id="name">
+        <input type="text" placeholder="Enter FName" id="fname">
+        <input type="text" placeholder="Enter Age" id="age">
+        <input type="button" onclick="me()" value="Submit Form">
+    </div>
+</body>
+
+<script>
+        function me(){
+           const name =  document.getElementById("name").value
+           const fname =  document.getElementById("fname").value
+           const age =  document.getElementById("age").value
+
+            const data = {
+                name,
+                fname,
+                age
+            }
+           
+
+            fetch("http://10.241.72.207:5000/data",{
+                method:"POST",
+                body: JSON.stringify(data),
+                headers: {
+                'Content-Type': 'application/json'
+                },
+
+            })
+
+
+        }
+
+
+
+
+    
+</script>
+</html>

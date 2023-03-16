@@ -1,0 +1,22 @@
+-An HTTP server is software that understands URLs (web addresses)
+-HTTP (the protocol your browser uses to view webpages)
+-An HTTP server can be accessed through the domain names of the websites it stores, and it
+delivers the content of these hosted websites to the end user's device.
+-whenever a browser needs a file that is hosted on a web server, the browser requests the file via
+HTTP. When the request reaches the correct (hardware) web server, the (software) HTTP server accepts the request, finds
+the requested document, and sends it back to the browser, also through HTTP. (If the server doesn't find the requested
+document, it returns a 404 response instead.)
+-To publish a website, you need either a static or a dynamic web server.
+-Node.js is a single-threaded event-driven platform that is capable of running non-blocking, asynchronously programming.
+-Open a File: The fs.open() method is used to create, read, or write a file.
+
+-Route definition takes the following structure:
+
+app.METHOD(PATH, HANDLER)
+
+Where:
+
+    app is an instance of express.
+    METHOD is an HTTP request method, in lowercase.
+    PATH is a path on the server.
+    HANDLER is the function executed when the route is matched.
