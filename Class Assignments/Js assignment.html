@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page"></div>
+    <script>
+        const y = document.body.appendChild(document.createElement("button"))
+        const events = document.addEventListener("click",ab)
+        y.innerHTML = `Count is 0`
+        count = 0;
+        function ab() {
+            count += 1;
+            y.innerHTML = `Count is ${count}`
+        }
+        const x = document.body.appendChild(document.createElement("p"));
+        x.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illo, voluptates ullam ea aliquam corporis maiores at,nihil nisi totam deserunt, reprehenderit dolores consequatur animi? Velit dignissimos maiores consequuntur iusto?"
+    </script>
+</body>
+</html>

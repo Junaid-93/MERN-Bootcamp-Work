@@ -1,0 +1,45 @@
+
+header {
+    text-align: center;
+    font-size: 2.5pc;
+}
+
+#gap {
+    height:7pc;
+}
+
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 1pc;
+
+
+
+}
+input {
+    margin: 2px;
+
+}
+#LoginDiv {
+    text-align: center;
+}
+input,textarea {
+    width:15pc;
+}
+button {
+    width:6pc;
+}
+
+ /* @media screen and (max-width: 922px) {
+ #Title{
+    font-size: 10px;
+ }
+ #Logo{
+    width:3pc;
+    height:3pc;
+ }
+}  */

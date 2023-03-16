@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+    <script src="Color.js"></script>
+  </head>
+  <body>
+    <div id="colors">Pakistan</div>
+    <script>
+      var x = document.getElementById("colors");
+      // x.style.backgroundColor = rgb(0,10,30)
+      x.style.color = "red";
+
+      var y = document.body.appendChild(document.createElement("button"));
+      y.innerHTML = "Change the color";
+      y.onclick(ab("rgb(24,56,89)"));
+      function ab(putAcolor) {
+        return (x.style.backgroundColor = putAcolor);
+      }
+    </script>
+  </body>
+</html>
