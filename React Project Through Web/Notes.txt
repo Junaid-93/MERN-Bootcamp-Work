@@ -1,0 +1,9 @@
+npm
+It also has all the packages in the front end scene.
+Command : >> npm install react <<  it will install the latest version of React from the registry.
+Command : >> npm init -y << In order to start an npm project at the root of your project.
+Command : >> npm install --global prettier << to install Prettier globally 
+Learn complete configuration of Prettier from react-v8.holt.courses/lessons/js-tools/prettier
+In JSX: <h1 id="main-title">My Website</h1>
+Without JSX: React.createElement("h1", { id: "main-title" }, "My Website")
+In JSX: No need to import react 
