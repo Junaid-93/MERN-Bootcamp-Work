@@ -1,0 +1,15 @@
+1.)Authentication And Authorization
+
+2.)Flow Of Authentiction (Tradition vs New)
+
+3.)Cookies
+
+4.) cookie-parser 
+
+5.) JWT (JSON WEB Token)
+    a) JWT.sign(), JWT.Verify() 
+
+
+
+
+
