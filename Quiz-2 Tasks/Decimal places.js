@@ -4,4 +4,4 @@ function deciNum(number,decimalPlaces) {
     let i = number.toFixed(decimalPlaces)
     return i
 }
-console.log(deciNum(3.56789,3));
+console.log(deciNum(3.56789,4));

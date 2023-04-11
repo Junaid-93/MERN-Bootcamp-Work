@@ -76,8 +76,8 @@ Last name: <input type="text" name="lname" value="Beckham"><br>
 
 
 <!-- Task-4 -->
-<!-- 
-<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>
 <html><head>
 <meta charset=utf-8 />
 <style type="text/css">
@@ -121,11 +121,16 @@ function getOptions() {
     <title>Document</title>
 </head>
 <body>
-    <p id="para">Lorem ipsum dolor sit, <b onmouseover= "display()" onmouseout="display2 ()">amet</b> consectetur <b onmouseover= "display()" onmouseout="display2 ()">elit</b>. Iure eveniet dicta ipsa praesentium facere, 
-        voluptate eos <b onmouseover= "display()" onmouseout="display2 ()">perspiciatis</b> earum libero blanditiis explicabo! Nobis error, 
+    <p id="para">Lorem ipsum dolor sit, <b>amet</b> consectetur <b>elit</b>. Iure eveniet dicta ipsa praesentium facere, 
+        voluptate eos <b>perspiciatis</b> earum libero blanditiis explicabo! Nobis error, 
         dolorem quasi atque excepturi hic repudiandae.</p>
 <script>
-    function display() {
+    let x = document.getElementsByTagName("b");
+    for (let i of x){
+        i.onmouseover = display 
+        i.onmouseout = display2
+        
+        function display() {
         let x = document.getElementById("para")
         for (let y of x.children) {
             y.style.color = "red"
@@ -138,6 +143,7 @@ function getOptions() {
             y.style.color = "black"
     }
 }
+}    
 </script>
 </body>
 </html> -->
@@ -167,10 +173,8 @@ function getOptions() {
 
         for (let i=0; i <=targetedTag.length; i += 2) {
             targetedTag[i].style.border = "3px solid black";
-        }
+            targetedTag[i+1].style.border = "3px dashed red";
 
-        for (let i=1; i <=targetedTag.length; i += 2) {
-            targetedTag[i].style.border = "3px dashed red";
         }
         
     </script>
