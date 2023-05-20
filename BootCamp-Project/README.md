@@ -1,2 +1,0 @@
-# BootCamp-Project
-Bootcamp Project.
