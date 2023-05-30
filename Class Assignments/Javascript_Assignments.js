@@ -9,7 +9,7 @@
 //             arr4.push(i)
 //         }        
 //     }
-//     console.log(arr4);
+//     console.log(arr4.sort());
 // }
 
 // union([1,2,3,3,3],[3,6,4,4,4,4,7,4,5])
@@ -143,7 +143,7 @@
 //         }
 //     }
 // }
-// prime(1022)
+// prime(100)
 
 // Assignment 8 (To get fibonacci series numbers (argument=3, result3 numbers))
 // ------------------------------ //
@@ -190,13 +190,12 @@
 //     else {
 //         return fibonacci3(n-1) + fibonacci3(n-2)
 // }}
-// console.log(fibonacci3(10)); 
+// console.log(fibonacci3(6)); 
 
 // var x = (function add(num1,num2) {
       
 //     console.log(num1+num2); 
-// })(2,6)
-// console.log(3);
+// })(2,6);
 
 
 // // RECURSION
@@ -213,3 +212,28 @@
 //     }
 //   }
 //   console.log(factorial(5));
+
+// vowels and consonants
+
+// function VandC(x) {
+//     str = x.toLowerCase()
+//     var vowels = 0
+//     var consonants = 0
+//     for (i=0; i<=str.length-1; i++){
+//         if (str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
+//         vowels += 1 
+//     }
+//     else if(str[i]==" "){
+//         continue;
+//     }
+//     else{
+//         consonants += 1
+//     }
+// }
+//     return {vowels, consonants}
+//     }
+    
+
+// var word = "this is pakistan"
+// var result = VandC(word);
+// console.log(result);

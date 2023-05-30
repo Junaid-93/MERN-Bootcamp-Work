@@ -34,7 +34,7 @@
 
 // // FUNCTIONS
 
-// Functions returns a value. The function which does not returns a value is call VOID FUNCTION.
+// Functions returns a value. The function which does not returns a value is called VOID FUNCTION.
 
 // // Function Declaration:
 // function check() {
@@ -69,7 +69,6 @@
 // }
 
 // let x = myFunction(4, 3);   // Function is called, return value will end up in x
-
 // console.log(x);
 
 // // IF ELSE:
@@ -134,13 +133,17 @@
 // studentsData.city = "Karachi"
 // console.log(studentsData.city);
 
-// studentsData["Province"] = "Simdh"
+// studentsData["Province"] = "Sindh"
 // console.log(studentsData["Province"]);
 
 // // Deleting a value of an object
 // delete studentsData["name"]
 // console.log(studentsData);
 
+// var x = [2,3,4,5]
+// delete x[2]
+// console.log(x[3]);
+// console.log(x[2]);
 // Warning !
 // Array elements can be deleted using the JavaScript operator delete.
 
@@ -153,15 +156,15 @@
 // console.log(studentsData.hasOwnProperty("city"))
 
 
-var arr1 = ["Asad","Babar",3,4,5]
+// var arr1 = ["Asad","Babar",3,4,5]
 // console.log(arr1[0]);
 // console.log(arr1[1]);
 // console.log(arr1[3]);
 // console.log(arr1);
-arr1[3]="Saqib"
+// arr1[3]="Saqib"
 // console.log(arr1);
 // console.log(arr1[3]);
-arr1.push("Akber")
+// arr1.push("Akber")
 // console.log(arr1[5]);
 // console.log(arr1);
 // console.log(arr1.pop());    // To eliminate last element of an array
@@ -220,7 +223,6 @@ arr1.push("Akber")
 // Arrays
 // var x = [1,2,4,9,5,3,7,8]
 // console.log(x.toString());   // toString converts an array into comma separated string 
-
 // console.log(x.reverse());
 // console.log(x.sort());
 // console.log(x.reverse());
@@ -252,11 +254,11 @@ arr1.push("Akber")
 // }
 // console.log(anArray);
 
-var obj = {
-    "name" : "Hammad",
-    "fname" : "Malik",
-    "age" : "27"
-}
+// var obj = {
+//     "name" : "Hammad",
+//     "fname" : "Malik",
+//     "age" : "27"
+// }
 
 // For In Loop
 // for (let x in obj) {         // For in loop is used to iterate over properties of an obj
@@ -318,9 +320,9 @@ var obj = {
 //     }
 //     })();   // must have to immediately invoke
   
-//   add();
-//   add();
-//   add();
+  // add();
+  // add();
+  // add();
   // the counter is now 3
 
   
@@ -351,23 +353,30 @@ var obj = {
 //         return x * factorial(x-1) 
 //     }
 // }
-// console.log(factorial())
-
+// console.log(factorial(8))
 
 // isNaN() , isInteger()
 
 // let x = [1,2,3,4,5]
 // let x2 = x.map(x => x*3)
 // console.log(x2);
-// const pattern = prompt('Enter a pattern');
-// let user_input = prompt("Type your name !");
-// if (pattern === "Junaid") {
-//     console.log("Your name is "+ pattern);
-// }
 
 
 // Map Find Filter Reduce (every, some, reduceRight, findIndex()) 
 // https://www.w3schools.com/js/js_array_iteration.asp
+
+// FOREACH:
+// The forEach() method calls a function (a callback function) once for each array element.
+
+// const numbers = [45, 4, 9, 16, 25];
+// let txt = "";
+// numbers.forEach(myFunction);
+
+// function myFunction(value, index, array) {
+//   txt += value + "<br>";
+// }
+
+// Also read --> indexOf, findIndex, includes, 
 
 // // MAP
 // let alist = [1,2,3,4,5]
