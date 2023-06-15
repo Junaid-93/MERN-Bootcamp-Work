@@ -31,16 +31,30 @@
 // console.log(var1 - var2);
 // console.log(var1 * var2);
 // console.log(var1 / var2);
+// let x = "Salam"
+// console.log(x.charAt(1));
+// console.log(x[3]);
+
+// let y = "kcecnec;woc"
+// console.log(y.slice(2,9));
+
+// let y = "    aksoeijc   "
+// console.log(y.trim());
+//  let z = "a quick brown fox jumps over the lazy dog"
+//  console.log(z.split());
+//  console.log(z.split(""));
 
 // // FUNCTIONS
 
 // Functions returns a value. The function which does not returns a value is called VOID FUNCTION.
+// ● If the function has no return statement then you can just call it.
+// ● But if has the return value then you have to store the value in an variable
 
 // // Function Declaration:
 // function check() {
 //     console.log("Hello !")
 // }
-// check();
+// check();   //Invoking a function
 
 // // Function Expression:
 
@@ -156,7 +170,7 @@
 // console.log(studentsData.hasOwnProperty("city"))
 
 
-// var arr1 = ["Asad","Babar",3,4,5]
+var arr1 = ["Asad","Babar",3,4,5]
 // console.log(arr1[0]);
 // console.log(arr1[1]);
 // console.log(arr1[3]);
@@ -183,8 +197,8 @@
 // var arr4 = arr1.slice(2,5)
 // console.log(arr4);
 
-
-// console.log(arr1.splice(2,1,"Ali","Babar"))  // splice parameters :- 1-from index no., 2-remove(no.of passed index), 3-items to be added in the list
+// console.log(arr1.splice(1,3,"Ali","Babar"))  // splice parameters :- 1-from index no., 2-remove(no.of passed index), 3-items to be added in the list
+// console.log(arr1);
 // in above code:- from position 2, remove 1 item, and add "Ali","Babar" in the array.
 // splice method returns an array of deleted items.
 
@@ -243,6 +257,7 @@
 //         break;
 //     default:
 //         console.log("default done");
+// }
 
 
 // For Loop:
@@ -320,10 +335,10 @@
 //     }
 //     })();   // must have to immediately invoke
   
-  // add();
-  // add();
-  // add();
-  // the counter is now 3
+//   console.log(add());
+//   console.log(add());
+//   console.log(add());
+// the counter is now 3
 
   
 //   Annonymous Functions
@@ -338,7 +353,12 @@
 // setTimeout(function() {
 //     console.log('Execute later after 1 second')
 // }, 1000);
-  
+
+// // Example 3
+// setInterval(function() {
+//     console.log('Execute on every 1 second')
+// }, 1000);
+
 // // Immediate Invoke Functon Expression
 // (function () {
 //     console.log(person.firstName+ ' ' + person.lastName);
@@ -353,7 +373,7 @@
 //         return x * factorial(x-1) 
 //     }
 // }
-// console.log(factorial(8))
+// console.log(factorial(4))
 
 // isNaN() , isInteger()
 
@@ -373,10 +393,14 @@
 // numbers.forEach(myFunction);
 
 // function myFunction(value, index, array) {
-//   txt += value + "<br>";
+// txt += value + "<br>";
 // }
 
 // Also read --> indexOf, findIndex, includes, 
+
+// let x = ["junaid", "asad", "babar"]
+// console.log(x.indexOf("junaid"));
+// console.log(x.includes("junaid"));
 
 // // MAP
 // let alist = [1,2,3,4,5]
