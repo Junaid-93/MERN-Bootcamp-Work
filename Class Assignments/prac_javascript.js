@@ -1,6 +1,19 @@
 // console.log("Hello World \n ");
 // alert("Hellow World")
 
+// function finding(y){
+//     let abc = {}
+//     for (var x of y){
+//         if (!abc[x]){
+//             abc[x]=0
+//         }
+//             abc[x] += 1
+//     }
+//     return abc
+// } 
+
+// var str = "sk dcbqkjscbl qsnclqcn lnqcvqbc knciq clqc"
+// console.log(finding(str));
 
 // //  Practice:
 
