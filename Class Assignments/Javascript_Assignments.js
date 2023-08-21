@@ -35,7 +35,6 @@
 
 // Using if statement
 // function even(num) {
-    
 //     if(num % 2 === 0) {
 //         console.log(true);
 //     }
@@ -148,9 +147,9 @@
 // Assignment 8 (To get fibonacci series numbers (argument=3, result3 numbers))
 // ------------------------------ //
 // function fibonacci(num) {
-//     series = [0,1]
-//     console.log(series.at(-2));
-//     console.log(series.at(-1));
+    // series = [0,1]
+    // console.log(series.at(-2));
+    // console.log(series.at(-1));
 //     for (var i = 1; i <= num-2 ; i++) {
 //         series.push(series.at(-1)+series.at(-2))
 //         console.log(series.at(-1))

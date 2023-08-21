@@ -1,20 +1,6 @@
 // console.log("Hello World \n ");
 // alert("Hellow World")
 
-// function finding(y){
-//     let abc = {}
-//     for (var x of y){
-//         if (!abc[x]){
-//             abc[x]=0
-//         }
-//             abc[x] += 1
-//     }
-//     return abc
-// } 
-
-// var str = "sk dcbqkjscbl qsnclqcn lnqcvqbc knciq clqc"
-// console.log(finding(str));
-
 // //  Practice:
 
 // console.log("Salam")
@@ -134,7 +120,7 @@
 
 
 
-// // OBJECTS (DICTIONERIES)
+// // OBJECTS (DICTIONERIES in Python)
 
 // var studentsData = {
 //     name : "Hammad",
@@ -167,23 +153,20 @@
 // delete studentsData["name"]
 // console.log(studentsData);
 
+// // Chechking
+// console.log(studentsData.hasOwnProperty("Country"))
+// console.log(studentsData.hasOwnProperty("city"))
+
 // var x = [2,3,4,5]
 // delete x[2]
 // console.log(x[3]);
 // console.log(x[2]);
 // Warning !
 // Array elements can be deleted using the JavaScript operator delete.
-
 // Using delete leaves undefined holes in the array.
-
 // Use pop() or shift() instead.
 
-// // Chechking
-// console.log(studentsData.hasOwnProperty("Country"))
-// console.log(studentsData.hasOwnProperty("city"))
-
-
-var arr1 = ["Asad","Babar",3,4,5]
+// var arr1 = ["Asad","Babar",3,4,5]
 // console.log(arr1[0]);
 // console.log(arr1[1]);
 // console.log(arr1[3]);
@@ -299,8 +282,8 @@ var arr1 = ["Asad","Babar",3,4,5]
 //     console.log(x);
 // }
 // If we use for in loop over an array, it will return index numbers of that array.
-// // While Loop
 
+// // While Loop
 // let i = 0;
 // while (i < 10) {
 //  i++;
@@ -393,8 +376,6 @@ var arr1 = ["Asad","Babar",3,4,5]
 // let x = [1,2,3,4,5]
 // let x2 = x.map(x => x*3)
 // console.log(x2);
-
-
 // Map Find Filter Reduce (every, some, reduceRight, findIndex()) 
 // https://www.w3schools.com/js/js_array_iteration.asp
 
@@ -459,3 +440,17 @@ var arr1 = ["Asad","Babar",3,4,5]
 // let func = (total, value) => value + total
 // let result4 = alist.reduce(func,10)
 // console.log(result4); 
+
+// function finding(y){
+//     let abc = {}
+//     for (var x of y){
+//         if (!abc[x]){
+//             abc[x]=0
+//         }
+//             abc[x] += 1
+//     }
+//     return abc
+// } 
+
+// var str = "sk dcbqkjscbl qsnclqcn lnqcvqbc knciq clqc"
+// console.log(finding(str));
